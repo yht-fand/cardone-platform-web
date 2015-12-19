@@ -1,0 +1,16 @@
+<ul class="nav nav-pills">
+		<% if (obj.workflow_wfVariable_index) { %>
+    <li class="active"><a href="#workflow-wfVariable-index" data-toggle="tab">工作流变量</a></li>
+	<% } %>
+	<% if (obj.workflow_wfVariableUser_index) { %>
+    <li><a href="#workflow-wfVariableUser-index" data-toggle="tab">工作流变量与用户</a></li>
+	<% } %>
+</ul>
+<div class="tab-content">
+	<% if (obj.workflow_wfVariable_index) { %>
+    <div class="tab-pane fade in active" id="workflow-wfVariable-index" data-view-url="./workflow/wfVariable/index"></div>
+	<% } %>
+	<% if (obj.workflow_wfVariableUser_index) { %>
+    <div class="tab-pane fade" id="workflow-wfVariableUser-index" data-view-url="./workflow/wfVariableUser/index"></div>
+	<% } %>
+</div>

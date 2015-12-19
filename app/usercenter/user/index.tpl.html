@@ -1,0 +1,37 @@
+<div class="well well-lg">
+    <form class="form-inline clearfix">
+        <input type="hidden" name="pageNumber" value="1">
+        <label for="user-code">编码：</label>
+        <input type="text" name="code" class="input-small" id="user-code">
+        <label for="user-name">名称：</label>
+        <input type="text" name="name" class="input-small" id="user-name">
+
+        <div class="btn-group pull-right" role="group">
+            <button name="search" data-page="1" type="submit" class="btn btn-primary"><i class="icon-search icon-white"></i>搜索</button>
+            <button type="reset" class="btn btn-default"><i class="icon-refresh"></i>清空搜索条件</button>
+            <% if (obj.permission_impData) { %>
+            <button name="impData" type="button" class="btn btn-default"><i class="icon-arrow-down"></i>导入</button>
+            <% } %>
+            <% if (obj.permission_expData) { %>
+            <button name="expData" type="button" class="btn btn-default"><i class="icon-arrow-up"></i>导出</button>
+            <% } %>
+        </div>
+    </form>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading clearfix">
+        <div class="btn-group pull-right" role="group">
+            <% if (obj.permission_add) { %>
+            <button name="addData" type="button" class="btn btn-primary btn-mini"><i class="icon-ok icon-white"></i>新增</button>
+            <% } %>
+            <% if (obj.permission_modify) { %>
+            <button name="modifyData" type="button" class="btn btn-info btn-mini"><i class="icon-repeat icon-white"></i>修改</button>
+            <% } %>
+            <% if (obj.permission_delete) { %>
+            <button name="removeData" type="button" class="btn btn-danger btn-mini"><i class="icon-remove icon-white"></i>删除</button>
+            <% } %>
+        </div>
+        <b>用户列表</b>
+    </div>
+    <div class="table-responsive"></div>
+</div>

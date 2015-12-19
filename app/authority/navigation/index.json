@@ -1,0 +1,7 @@
+{
+  "permission_add": true,
+  "permission_modify": true,
+  "permission_delete": true,
+  "permission_impData": true,
+  "permission_expData": true
+}

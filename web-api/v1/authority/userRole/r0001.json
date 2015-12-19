@@ -1,0 +1,20 @@
+{
+  "beginDate": "test-data",
+  "createdByCode": "test-data",
+  "createdDate": "test-data",
+  "dataStateCode": "test-data",
+  "departmentCode": "test-data",
+  "endDate": "test-data",
+  "flagCode": "test-data",
+  "lastModifiedByCode": "test-data",
+  "lastModifiedDate": "test-data",
+  "orgCode": "test-data",
+  "permissionCodes": "test-data",
+  "roleCode": "test-data",
+  "roleCodes": "test-data",
+  "stateCode": "test-data",
+  "userCode": "test-data",
+  "userRoleId": "test-data",
+  "version": "test-data",
+  "wfId": "test-data"
+}

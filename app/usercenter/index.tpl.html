@@ -1,0 +1,22 @@
+<ul class="nav nav-pills">
+		<% if (obj.usercenter_org_index) { %>
+    <li class="active"><a href="#usercenter-org-index" data-toggle="tab">组织</a></li>
+	<% } %>
+	<% if (obj.usercenter_department_index) { %>
+    <li><a href="#usercenter-department-index" data-toggle="tab">部门</a></li>
+	<% } %>
+	<% if (obj.usercenter_user_index) { %>
+    <li><a href="#usercenter-user-index" data-toggle="tab">用户</a></li>
+	<% } %>
+</ul>
+<div class="tab-content">
+	<% if (obj.usercenter_org_index) { %>
+    <div class="tab-pane fade in active" id="usercenter-org-index" data-view-url="./usercenter/org/index"></div>
+	<% } %>
+	<% if (obj.usercenter_department_index) { %>
+    <div class="tab-pane fade" id="usercenter-department-index" data-view-url="./usercenter/department/index"></div>
+	<% } %>
+	<% if (obj.usercenter_user_index) { %>
+    <div class="tab-pane fade" id="usercenter-user-index" data-view-url="./usercenter/user/index"></div>
+	<% } %>
+</div>

@@ -1,0 +1,58 @@
+<ul class="nav nav-pills">
+		<% if (obj.authority_navigation_index) { %>
+    <li class="active"><a href="#authority-navigation-index" data-toggle="tab">导航</a></li>
+	<% } %>
+	<% if (obj.authority_permission_index) { %>
+    <li><a href="#authority-permission-index" data-toggle="tab">许可</a></li>
+	<% } %>
+	<% if (obj.authority_role_index) { %>
+    <li><a href="#authority-role-index" data-toggle="tab">角色</a></li>
+	<% } %>
+	<% if (obj.authority_rolePermission_index) { %>
+    <li><a href="#authority-rolePermission-index" data-toggle="tab">角色与许可</a></li>
+	<% } %>
+	<% if (obj.authority_userGroup_index) { %>
+    <li><a href="#authority-userGroup-index" data-toggle="tab">用户组</a></li>
+	<% } %>
+	<% if (obj.authority_userGroupRole_index) { %>
+    <li><a href="#authority-userGroupRole-index" data-toggle="tab">用户组与角色</a></li>
+	<% } %>
+	<% if (obj.authority_userGroupUser_index) { %>
+    <li><a href="#authority-userGroupUser-index" data-toggle="tab">用户组与用户</a></li>
+	<% } %>
+	<% if (obj.authority_userPermission_index) { %>
+    <li><a href="#authority-userPermission-index" data-toggle="tab">用户与许可</a></li>
+	<% } %>
+	<% if (obj.authority_userRole_index) { %>
+    <li><a href="#authority-userRole-index" data-toggle="tab">用户与角色</a></li>
+	<% } %>
+</ul>
+<div class="tab-content">
+	<% if (obj.authority_navigation_index) { %>
+    <div class="tab-pane fade in active" id="authority-navigation-index" data-view-url="./authority/navigation/index"></div>
+	<% } %>
+	<% if (obj.authority_permission_index) { %>
+    <div class="tab-pane fade" id="authority-permission-index" data-view-url="./authority/permission/index"></div>
+	<% } %>
+	<% if (obj.authority_role_index) { %>
+    <div class="tab-pane fade" id="authority-role-index" data-view-url="./authority/role/index"></div>
+	<% } %>
+	<% if (obj.authority_rolePermission_index) { %>
+    <div class="tab-pane fade" id="authority-rolePermission-index" data-view-url="./authority/rolePermission/index"></div>
+	<% } %>
+	<% if (obj.authority_userGroup_index) { %>
+    <div class="tab-pane fade" id="authority-userGroup-index" data-view-url="./authority/userGroup/index"></div>
+	<% } %>
+	<% if (obj.authority_userGroupRole_index) { %>
+    <div class="tab-pane fade" id="authority-userGroupRole-index" data-view-url="./authority/userGroupRole/index"></div>
+	<% } %>
+	<% if (obj.authority_userGroupUser_index) { %>
+    <div class="tab-pane fade" id="authority-userGroupUser-index" data-view-url="./authority/userGroupUser/index"></div>
+	<% } %>
+	<% if (obj.authority_userPermission_index) { %>
+    <div class="tab-pane fade" id="authority-userPermission-index" data-view-url="./authority/userPermission/index"></div>
+	<% } %>
+	<% if (obj.authority_userRole_index) { %>
+    <div class="tab-pane fade" id="authority-userRole-index" data-view-url="./authority/userRole/index"></div>
+	<% } %>
+</div>

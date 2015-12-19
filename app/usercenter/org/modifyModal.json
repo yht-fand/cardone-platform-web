@@ -1,0 +1,20 @@
+{
+  "beginDate": "test-data",
+  "createdByCode": "test-data",
+  "createdDate": "test-data",
+  "dataStateCode": "test-data",
+  "endDate": "test-data",
+  "lastModifiedByCode": "test-data",
+  "lastModifiedDate": "test-data",
+  "name": "test-data",
+  "orgCode": "test-data",
+  "orgId": "test-data",
+  "parentCode": "test-data",
+  "parentTreeCode": "test-data",
+  "parentTreeName": "test-data",
+  "permissionCodes": "test-data",
+  "roleCodes": "test-data",
+  "stateCode": "test-data",
+  "version": "test-data",
+  "wfId": "test-data"
+}

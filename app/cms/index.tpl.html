@@ -1,0 +1,16 @@
+<ul class="nav nav-pills">
+		<% if (obj.cms_article_index) { %>
+    <li class="active"><a href="#cms-article-index" data-toggle="tab">文章</a></li>
+	<% } %>
+	<% if (obj.cms_notice_index) { %>
+    <li><a href="#cms-notice-index" data-toggle="tab">公告</a></li>
+	<% } %>
+</ul>
+<div class="tab-content">
+	<% if (obj.cms_article_index) { %>
+    <div class="tab-pane fade in active" id="cms-article-index" data-view-url="./cms/article/index"></div>
+	<% } %>
+	<% if (obj.cms_notice_index) { %>
+    <div class="tab-pane fade" id="cms-notice-index" data-view-url="./cms/notice/index"></div>
+	<% } %>
+</div>

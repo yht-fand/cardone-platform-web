@@ -1,0 +1,23 @@
+{
+  "beginDate": null,
+  "createdByCode": null,
+  "createdDate": null,
+  "dataStateCode": null,
+  "departmentCode": null,
+  "endDate": null,
+  "lastModifiedByCode": null,
+  "lastModifiedDate": null,
+  "name": null,
+  "order": null,
+  "orgCode": null,
+  "parentCode": null,
+  "parentTreeCode": null,
+  "parentTreeName": null,
+  "permissionCodes": null,
+  "roleCodes": null,
+  "stateCode": null,
+  "userGroupCode": null,
+  "userGroupId": null,
+  "version": null,
+  "wfId": null
+}

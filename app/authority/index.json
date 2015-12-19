@@ -1,0 +1,11 @@
+{
+ "authority_navigation_index": true,
+ "authority_permission_index": true,
+ "authority_role_index": true,
+ "authority_rolePermission_index": true,
+ "authority_userGroup_index": true,
+ "authority_userGroupRole_index": true,
+ "authority_userGroupUser_index": true,
+ "authority_userPermission_index": true,
+ "authority_userRole_index": true
+}
