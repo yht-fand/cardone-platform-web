@@ -35,7 +35,9 @@ token|false|String|授权认证码
 ```
 {
   "configuration_dictionaryType_index": true,
-  "configuration_dictionary_index": true
+  "configuration_dictionary_index": true,
+  "configuration_i18nInfo_index": true,
+  "configuration_errorInfo_index": true
 }
 ```
 
@@ -45,3 +47,5 @@ token|false|String|授权认证码
 ---|---|---|---
 configuration_dictionaryType_index|true|boolean|是否有权限访问字典类别
 configuration_dictionary_index|true|boolean|是否有权限访问字典
+configuration_i18nInfo_index|true|boolean|是否有权限访问国际化信息
+configuration_errorInfo_index|true|boolean|是否有权限访问错误信息

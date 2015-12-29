@@ -1,4 +1,6 @@
 {
  "configuration_dictionaryType_index": true,
- "configuration_dictionary_index": true
+ "configuration_dictionary_index": true,
+ "configuration_i18nInfo_index": true,
+ "configuration_errorInfo_index": true
 }

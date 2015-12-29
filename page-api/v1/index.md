@@ -21,6 +21,12 @@
     * [configuration/dictionary/index](./configuration/dictionary/index.md) -- 字典 - 搜索
     * [configuration/dictionary/addModal](./configuration/dictionary/addModal.md) -- 字典 - 新增
     * [configuration/dictionary/modifyModal](./configuration/dictionary/modifyModal.md) -- 字典 - 修改
+    * [configuration/i18nInfo/index](./configuration/i18nInfo/index.md) -- 国际化信息 - 搜索
+    * [configuration/i18nInfo/addModal](./configuration/i18nInfo/addModal.md) -- 国际化信息 - 新增
+    * [configuration/i18nInfo/modifyModal](./configuration/i18nInfo/modifyModal.md) -- 国际化信息 - 修改
+    * [configuration/errorInfo/index](./configuration/errorInfo/index.md) -- 错误信息 - 搜索
+    * [configuration/errorInfo/addModal](./configuration/errorInfo/addModal.md) -- 错误信息 - 新增
+    * [configuration/errorInfo/modifyModal](./configuration/errorInfo/modifyModal.md) -- 错误信息 - 修改
   * [authority/index](./authority/index.md) -- 权限
     * [authority/navigation/index](./authority/navigation/index.md) -- 导航 - 搜索
     * [authority/navigation/addModal](./authority/navigation/addModal.md) -- 导航 - 新增

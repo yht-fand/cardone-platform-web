@@ -132,6 +132,48 @@
 [m0002](./configuration/dictionary/m0002.md)|新建|复合
 [m0003](./configuration/dictionary/m0003.md)|新建|复合
 
+### 国际化信息（i18nInfo）
+
+```
+./web-api/v1/configuration/i18nInfo/{接口名}.json
+```
+
+接口名|状态|说明
+---|---|---
+[c0001](./configuration/i18nInfo/c0001.md)|新建|创建
+[c0002](./configuration/i18nInfo/c0002.md)|新建|批量创建
+[u0001](./configuration/i18nInfo/u0001.md)|新建|修改
+[u0002](./configuration/i18nInfo/u0002.md)|新建|批量修改
+[r0001](./configuration/i18nInfo/r0001.md)|新建|查询
+[r0002](./configuration/i18nInfo/r0002.md)|新建|查询列表
+[r0003](./configuration/i18nInfo/r0003.md)|新建|查询分页
+[d0001](./configuration/i18nInfo/d0001.md)|新建|删除
+[d0002](./configuration/i18nInfo/d0002.md)|新建|批量删除
+[m0001](./configuration/i18nInfo/m0001.md)|新建|复合
+[m0002](./configuration/i18nInfo/m0002.md)|新建|复合
+[m0003](./configuration/i18nInfo/m0003.md)|新建|复合
+
+### 错误信息（errorInfo）
+
+```
+./web-api/v1/configuration/errorInfo/{接口名}.json
+```
+
+接口名|状态|说明
+---|---|---
+[c0001](./configuration/errorInfo/c0001.md)|新建|创建
+[c0002](./configuration/errorInfo/c0002.md)|新建|批量创建
+[u0001](./configuration/errorInfo/u0001.md)|新建|修改
+[u0002](./configuration/errorInfo/u0002.md)|新建|批量修改
+[r0001](./configuration/errorInfo/r0001.md)|新建|查询
+[r0002](./configuration/errorInfo/r0002.md)|新建|查询列表
+[r0003](./configuration/errorInfo/r0003.md)|新建|查询分页
+[d0001](./configuration/errorInfo/d0001.md)|新建|删除
+[d0002](./configuration/errorInfo/d0002.md)|新建|批量删除
+[m0001](./configuration/errorInfo/m0001.md)|新建|复合
+[m0002](./configuration/errorInfo/m0002.md)|新建|复合
+[m0003](./configuration/errorInfo/m0003.md)|新建|复合
+
 ## 权限（authority）
 
 ### 导航（navigation）
