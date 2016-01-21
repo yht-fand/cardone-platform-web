@@ -1,5 +1,6 @@
 {
   "beginDate": null,
+  "content": null,
   "createdByCode": null,
   "createdDate": null,
   "dataStateCode": null,
@@ -9,11 +10,11 @@
   "errorInfoId": null,
   "lastModifiedByCode": null,
   "lastModifiedDate": null,
-  "message": null,
   "orgCode": null,
   "permissionCodes": null,
   "roleCodes": null,
   "stateCode": null,
+  "typeCode": null,
   "version": null,
   "wfId": null
 }

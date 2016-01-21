@@ -170,7 +170,7 @@ DATA_STATE_CODE|YES|String(36)|数据状态代码
 DEPARTMENT_CODE|YES|String(36)|部门代码
 DICTIONARY_CODE|NO|String(36)|字典代码
 DICTIONARY_ID|NO|String(36)|字典标识
-DICTIONARY_TYPE_CODE|YES|String(36)|字典类别代码
+DICTIONARY_TYPE_CODE|NO|String(36)|字典类别代码
 END_DATE|YES|Date(8)|结束时间
 EXPLAIN_|YES|String(512)|解释
 LAST_MODIFIED_BY_CODE|YES|String(36)|最后修改人代码
@@ -191,6 +191,7 @@ WF_ID|YES|String(36)|工作流标识
 字段名|可为空|类型及范围|说明
 ---|---|---|---
 BEGIN_DATE|YES|Date(8)|开始时间
+CONTENT|YES|String(4000)|正文
 CREATED_BY_CODE|YES|String(36)|创建人代码
 CREATED_DATE|YES|Date(8)|创建时间
 DATA_STATE_CODE|YES|String(36)|数据状态代码
@@ -204,7 +205,7 @@ ORG_CODE|YES|String(36)|组织代码
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODES|YES|String(1024)|角色代码集合
 STATE_CODE|YES|String(36)|状态代码
-TYPE_CODE|YES|String(36)|类别代码
+TYPE_CODE|NO|String(36)|类别代码
 VERSION_|YES|Long(10)|版本
 WF_ID|YES|String(36)|工作流标识
 
@@ -213,6 +214,7 @@ WF_ID|YES|String(36)|工作流标识
 字段名|可为空|类型及范围|说明
 ---|---|---|---
 BEGIN_DATE|YES|Date(8)|开始时间
+CONTENT|YES|String(4000)|正文
 CREATED_BY_CODE|YES|String(36)|创建人代码
 CREATED_DATE|YES|Date(8)|创建时间
 DATA_STATE_CODE|YES|String(36)|数据状态代码
@@ -222,11 +224,11 @@ ERROR_INFO_CODE|NO|String(36)|错误信息代码
 ERROR_INFO_ID|NO|String(36)|错误信息标识
 LAST_MODIFIED_BY_CODE|YES|String(36)|最后修改人代码
 LAST_MODIFIED_DATE|YES|Date(8)|最后修改时间
-MESSAGE|YES|String(512)|消息
 ORG_CODE|YES|String(36)|组织代码
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODES|YES|String(1024)|角色代码集合
 STATE_CODE|YES|String(36)|状态代码
+TYPE_CODE|NO|String(36)|类别代码
 VERSION_|YES|Long(10)|版本
 WF_ID|YES|String(36)|工作流标识
 

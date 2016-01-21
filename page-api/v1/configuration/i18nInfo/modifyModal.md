@@ -36,6 +36,7 @@ token|false|String|授权认证码
 ```
 {
   "beginDate": null,
+  "content": null,
   "createdByCode": null,
   "createdDate": null,
   "dataStateCode": null,
@@ -60,6 +61,7 @@ token|false|String|授权认证码
 字段名|可为空|类型及范围|说明
 ---|---|---|---
 beginDate|true|Date|开始时间
+content|true|String|正文
 createdByCode|true|String|创建人代码
 createdDate|true|Date|创建时间
 dataStateCode|true|String|数据状态代码
