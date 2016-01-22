@@ -18,6 +18,8 @@ MESSAGE|YES|String(512)|消息
 OPERATE_LOG_CODE|NO|String(36)|操作日志代码
 OPERATE_LOG_ID|NO|String(36)|操作日志标识
 ORG_CODE|YES|String(36)|组织代码
+SITE_CODE|YES|String(36)|站点代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 TYPE_CODE|NO|String(36)|类别代码
 
 ### 用户中心(usercenter)
@@ -155,7 +157,9 @@ PARENT_TREE_NAME|YES|String(1024)|父级树代名称
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 REMARK|YES|String(512)|说明
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点编号
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 VERSION_|YES|Long(10)|版本
 WF_ID|YES|String(36)|工作流标识
 
@@ -181,7 +185,9 @@ ORG_CODE|YES|String(36)|组织代码
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 REMARK|YES|String(512)|说明
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点编号
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 VALUE_|YES|String(1024)|值
 VERSION_|YES|Long(10)|版本
 WF_ID|YES|String(36)|工作流标识
@@ -204,7 +210,9 @@ LAST_MODIFIED_DATE|YES|Date(8)|最后修改时间
 ORG_CODE|YES|String(36)|组织代码
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点编号
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 TYPE_CODE|NO|String(36)|类别代码
 VERSION_|YES|Long(10)|版本
 WF_ID|YES|String(36)|工作流标识
@@ -227,8 +235,59 @@ LAST_MODIFIED_DATE|YES|Date(8)|最后修改时间
 ORG_CODE|YES|String(36)|组织代码
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点编号
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 TYPE_CODE|NO|String(36)|类别代码
+VERSION_|YES|Long(10)|版本
+WF_ID|YES|String(36)|工作流标识
+
+##### 系统信息（t_system_info）
+
+字段名|可为空|类型及范围|说明
+---|---|---|---
+BEGIN_DATE|YES|Date(8)|开始时间
+CONTENT|YES|String(4000)|正文
+CREATED_BY_CODE|YES|String(36)|创建人代码
+CREATED_DATE|YES|Date(8)|创建时间
+DATA_STATE_CODE|YES|String(36)|数据状态代码
+DEPARTMENT_CODE|YES|String(36)|部门代码
+END_DATE|YES|Date(8)|结束时间
+LAST_MODIFIED_BY_CODE|YES|String(36)|最后修改人代码
+LAST_MODIFIED_DATE|YES|Date(8)|最后修改时间
+NAME|YES|String(256)|名称
+ORG_CODE|YES|String(36)|组织代码
+PERMISSION_CODES|YES|String(1024)|许可代码集合
+REMARK|YES|String(512)|说明
+ROLE_CODES|YES|String(1024)|角色代码集合
+STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|NO|String(36)|系统信息代码
+SYSTEM_INFO_ID|NO|String(36)|系统信息标识
+VERSION_|YES|Long(10)|版本
+WF_ID|YES|String(36)|工作流标识
+
+##### 站点（t_site）
+
+字段名|可为空|类型及范围|说明
+---|---|---|---
+BEGIN_DATE|YES|Date(8)|开始时间
+CONTENT|YES|String(4000)|正文
+CREATED_BY_CODE|YES|String(36)|创建人代码
+CREATED_DATE|YES|Date(8)|创建时间
+DATA_STATE_CODE|YES|String(36)|数据状态代码
+DEPARTMENT_CODE|YES|String(36)|部门代码
+END_DATE|YES|Date(8)|结束时间
+EXPLAIN_|YES|String(512)|解释
+LAST_MODIFIED_BY_CODE|YES|String(36)|最后修改人代码
+LAST_MODIFIED_DATE|YES|Date(8)|最后修改时间
+NAME|YES|String(256)|名称
+ORG_CODE|YES|String(36)|组织代码
+PERMISSION_CODES|YES|String(1024)|许可代码集合
+ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点编号
+SITE_ID|NO|String(36)|站点标识
+STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 VERSION_|YES|Long(10)|版本
 WF_ID|YES|String(36)|工作流标识
 
@@ -264,7 +323,9 @@ PARENT_TREE_CODE|YES|String(1024)|父级树代码
 PARENT_TREE_NAME|YES|String(1024)|父级树名称
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点代码
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 TARGET|YES|String(256)|目标
 TYPE_CODE|YES|String(36)|类别代码
 URL|YES|String(256)|URL
@@ -291,7 +352,9 @@ PERMISSION_CODE|NO|String(36)|许可代码
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 PERMISSION_ID|NO|String(36)|许可标识
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点代码
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 VERSION_|YES|Long(10)|版本
 WF_ID|YES|String(36)|工作流标识
 
@@ -313,7 +376,9 @@ PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODE|NO|String(36)|角色代码
 ROLE_CODES|YES|String(1024)|角色代码集合
 ROLE_ID|NO|String(36)|角色标识
+SITE_CODE|YES|String(36)|站点代码
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 VERSION_|YES|Long(10)|版本
 WF_ID|YES|String(36)|工作流标识
 
@@ -335,7 +400,9 @@ PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODE|NO|String(36)|角色代码
 ROLE_CODES|YES|String(1024)|角色代码集合
 ROLE_PERMISSION_ID|NO|String(36)|角色与许可标识
+SITE_CODE|YES|String(36)|站点代码
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 VERSION_|YES|Long(10)|版本
 WF_ID|YES|String(36)|工作流标识
 
@@ -359,7 +426,9 @@ PARENT_TREE_CODE|YES|String(1024)|父级树代码
 PARENT_TREE_NAME|YES|String(1024)|父级树名称
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点代码
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 USER_GROUP_CODE|NO|String(36)|用户组代码
 USER_GROUP_ID|NO|String(36)|用户组标识
 VERSION_|YES|Long(10)|版本
@@ -381,7 +450,9 @@ ORG_CODE|YES|String(36)|组织代码
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODE|NO|String(36)|角色代码
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点代码
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 USER_GROUP_CODE|NO|String(36)|用户组代码
 USER_GROUP_ROLE_ID|NO|String(36)|用户组与角色标识
 VERSION_|YES|Long(10)|版本
@@ -402,7 +473,9 @@ LAST_MODIFIED_DATE|YES|Date(8)|最后修改时间
 ORG_CODE|YES|String(36)|组织代码
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点代码
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 USER_CODE|NO|String(36)|用户代码
 USER_GROUP_CODE|NO|String(36)|用户组代码
 USER_GROUP_USER_ID|NO|String(36)|用户组与用户标识
@@ -426,7 +499,9 @@ ORG_CODE|YES|String(36)|组织代码
 PERMISSION_CODE|NO|String(36)|许可代码
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点代码
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 USER_CODE|NO|String(36)|用户代码
 USER_PERMISSION_ID|NO|String(36)|用户与许可标识
 VERSION_|YES|Long(10)|版本
@@ -449,7 +524,9 @@ ORG_CODE|YES|String(36)|组织代码
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODE|NO|String(36)|角色代码
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点代码
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 USER_CODE|NO|String(36)|用户代码
 USER_ROLE_ID|NO|String(36)|用户与角色标识
 VERSION_|YES|Long(10)|版本
@@ -479,7 +556,9 @@ LAST_MODIFIED_DATE|YES|Date(8)|最后修改时间
 ORG_CODE|YES|String(36)|组织代码
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点代码
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 VERSION_|YES|Long(10)|版本
 WF_ID|YES|String(36)|工作流标识
 WF_KEY|YES|String(255)|工作流键
@@ -501,7 +580,9 @@ LAST_MODIFIED_DATE|YES|Date(8)|最后修改时间
 ORG_CODE|YES|String(36)|组织代码
 PERMISSION_CODES|YES|String(1024)|许可代码集合
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点代码
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 USER_CODE|NO|String(36)|用户代码
 VERSION_|YES|Long(10)|版本
 WF_ID|YES|String(36)|工作流标识
@@ -537,7 +618,9 @@ PICTURE_URL|YES|String(256)|图片路径
 RECOM|YES|String(1)|推荐
 RELEASE_DATE|YES|Date(8)|发布日期
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点代码
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 TITLE|NO|String(256)|标题
 TYPE_CODE|YES|String(36)|类别代码
 VERSION_|YES|Long(10)|版本
@@ -562,7 +645,9 @@ PERMISSION_CODES|YES|String(1024)|许可代码集合
 PICTURE_URL|YES|String(256)|图片路径
 RELEASE_DATE|YES|Date(8)|发布日期
 ROLE_CODES|YES|String(1024)|角色代码集合
+SITE_CODE|YES|String(36)|站点代码
 STATE_CODE|YES|String(36)|状态代码
+SYSTEM_INFO_CODE|YES|String(36)|系统信息代码
 TITLE|NO|String(256)|标题
 TYPE_CODE|YES|String(36)|类别代码
 VERSION_|YES|Long(10)|版本
