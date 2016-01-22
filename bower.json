@@ -1,0 +1,41 @@
+{
+  "name": "rdmp2.mdyht",
+  "description": "rdmp2",
+  "main": "./dist/**/*",
+  "moduleType": [],
+  "keywords": [
+    "rdmp2"
+  ],
+  "authors": [
+    "yao hai tao"
+  ],
+  "license": "MIT",
+  "homepage": "rdmp2.mdyht.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.1",
+    "ztree": "~3.5.0",
+    "backbone.marionette": "~2.4.3",
+    "require-css": "~0.1.8",
+    "i18n": "requirejs-i18n#~2.0.6",
+    "text": "requirejs-text#~2.0.14",
+    "json2": "*",
+    "bootstrap-datepicker": "~1.5.0",
+    "bsie": "~2.2.2",
+    "uikit": "~2.23.0",
+    "requirejs": "~2.1.22",
+    "requirejs-plugins": "~1.0.3",
+    "select2": "~4.0.1",
+    "headroom.js": "~0.7.0",
+    "smalot-bootstrap-datetimepicker": "~2.3.5",
+    "html5shiv": "~3.7.3",
+    "respond": "~1.4.2"
+  }
+}
